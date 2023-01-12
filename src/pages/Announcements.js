@@ -1,4 +1,4 @@
-export default Announcements() {
+export default function Announcements() {
   return (
     <div>Announcements</div>
   )

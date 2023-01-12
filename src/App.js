@@ -1,29 +1,24 @@
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
-  Link
+  Navigate
 } from "react-router-dom";
+import Announcements from './pages/Announcements';
+import Services from './pages/Services';
+import About from './pages/About';
 import './App.css';
 
 function App() {
   return (
     <div>
       <Router>
-        <Switch>
-          <Route path="/announcements">
-            <Announcements />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/services">
-            <Services />
-          </Route>
-          <Route path="/">
-            <Redirect to="/services" />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/services" element={<Services />} />
+          <Route path="/announcements" element={<Announcements />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/*" element={<Navigate replace to="/services" />} />
+        </Routes>
       </Router>
       <div class="text-center p-1 py-2 italic">
         <p>Dana Ranch Ward Sacrament Meeting</p>
