@@ -11,7 +11,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Church Font";
+  src: url(./bakersignet.otf) format("opentype");
+}
+
+.church-font {
+  font-family: "Church Font", Verdana, Tahoma;
+}
+
+.font-md {
+  font-size: 1.5rem;
+}
+
+.font-lg {
+  font-size: 2rem;
+}
+
+.zero-auto {
+  margin: 0 auto;
+}
+
+.condensed-text {
+  font-size: 0.9rem;
 }
