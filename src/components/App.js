@@ -28,7 +28,7 @@ function App() {
         {currentRoute !== '/services'  && <WardLink route="/services" text="Back to order of services" />}
         {currentRoute === '/services' && <WardLink route="/announcements" text="To announcements" />}
         {currentRoute === '/services' && <WardLink route="/about" text="To ward leadership" />}
-        {currentRoute === '/about' && <WardLink url="https://discord.gg/QmUrmzUxCt" text="Join us on Discord" />}
+        {/* {currentRoute === '/about' && <WardLink url="https://discord.gg/QmUrmzUxCt" text="Join us on Discord" />} */}
         {currentRoute === '/announcements' && <WardLink url="https://www.churchofjesuschrist.org/calendar/month" text="View ward calendar" />}
       </div>
     </div>

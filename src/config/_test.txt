@@ -1,0 +1,68 @@
+{
+  "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
+  "organist"
+  "chorister"
+  "presiding"
+  "conducting"
+  "invocation"
+  "benediction"
+  "openingHymn"
+  "closingHymn"
+  "sacramentHymn"
+  "isFastSunday": false
+  "services": [
+    {
+      "type": "speaker",
+      "name": "Damario Gough"
+    },
+    {
+      "type": "speaker",
+      "name": "Jennifer Goodman"
+    },
+    {
+      "type": "music",
+      "name"
+    },
+    {
+      "type": "speaker",
+      "name": "Clar Reynolds"
+    }
+  ],
+    "announcements": [
+      {
+        "organization": "Primary",
+        "announcements": [
+          "This Sunday there will be donuts in the hallway.",
+          "Next Sunday we will sing some songs."
+        ]
+      },
+      {
+        "organization": "Relief Society",
+        "announcements": [
+          "This Sunday our lesson will be about faith.",
+          "During the week we have a dinner."
+        ]
+      },
+      {
+        "organization": "Young Women",
+        "announcements": [
+          "This Saturday we are attending the temple.",
+          "We encourage all youth and parents to sign up for seminary."
+        ]
+      }
+    ],
+    "wardBusiness": [
+      {
+        "type": "baptized",
+        "items": []
+      },
+      {
+        "type": "release",
+        "items": []
+      },
+      {
+        "type": "sustain",
+        "items": []
+      },
+    ]
+}
