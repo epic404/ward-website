@@ -17,10 +17,16 @@ export default function About() {
       </div>
 
       <div className="text-center text-stone-800 mt-8 italic">
-        * Appointments with Bishop can be made over the phone with Brother Jarman or online:
+        {
+          config.scheduleLink
+            ? `* Appointments with Bishop can be made over the phone with Brother Jarman or online:`
+            : `* Appointments with Bishop can be made over the phone with Brother Jarman.`
+        }
       </div>
 
-      <ActionButton link={config.scheduleLink} text="Schedule With Bishop" />
+      {config.scheduleLink &&
+        <ActionButton link={config.scheduleLink} text="Schedule With Bishop" />
+      }
 
       {/* TODO: Add section for our missionaries and their contact info. Maybe even a little avatar of them here w/ their assigned mission and dates */}
     </div>

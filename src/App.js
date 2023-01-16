@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import Announcements from '../pages/Announcements';
-import Services from '../pages/Services';
-import About from '../pages/About';
-import WardLink from './WardLink';
-import { getCirclesLink } from '../utils/getCirclesLink';
+import Announcements from './pages/Announcements';
+import Services from './pages/Services';
+import About from './pages/About';
+import WardLink from './components/RouteLink';
+import { getCirclesLink } from './utils/getCirclesLink';
 
 function App() {
   const location = useLocation();
