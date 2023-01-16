@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function WardLink({text, route, url}) {
+export default function RouteLink({ text, route, url }) {
   return (
     <div className="underline">
       {route && <Link to={route}>

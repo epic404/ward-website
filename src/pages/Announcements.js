@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import WardAnnouncement from './WardAnnouncement';
+import AnnouncementItem from '../components/AnnouncementItem';
 
 export default function Announcements() {
 
@@ -20,7 +20,9 @@ export default function Announcements() {
       <hr className="h-px my-4 bg-gray-400 border-0" />
       <h2 className="mb-2 text-lg font-semibold text-gray-900">Stake:</h2>
       <ul className="max-w-md space-y-1 text-gray-800 list-disc list-inside">
-        <li key="1">Stake Conference will be on January 28th - 29th</li>
+        <li key="1">Stake Conference will be on January 28th - 29th
+          <div class="text-center">* * *</div>
+        </li>
         <li key="2">On January 29th at 6pm there will be an Addiction Recovery Fireside: "Hope, Healing & Peace" with Harold Blomquist. It will be held at 2424 N. Old Gilbert Rd.</li>
         <li key="3">
           The Kimball Stake is sponsoring another round of Self-reliance classes beginning in January of the New Year.
@@ -44,7 +46,7 @@ export default function Announcements() {
       {/* {
         testConfig.announcements.map((item, index) => {
           if (item.announcements.length) {
-            return <WardAnnouncement
+            return <AnnouncementItem
                       key={index}
                       organization={item.organization}
                       announcements={item.announcements} />

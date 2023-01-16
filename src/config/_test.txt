@@ -9,6 +9,7 @@
   "openingHymn"
   "closingHymn"
   "sacramentHymn"
+  "intermediateHymn"
   "isFastSunday": false
   "services": [
     {
