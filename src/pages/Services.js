@@ -3,6 +3,7 @@ import ActionButton from '../components/ActionButton';
 import HymnItem from '../components/HymnItem';
 import SpeakerItem from '../components/SpeakerItem';
 import OnTheStand from '../components/OnTheStand';
+import BuildServices from '../components/BuildServices';
 
 export default function Services({ config }) {
 
@@ -45,23 +46,7 @@ export default function Services({ config }) {
         <em>Administration of the Sacrament</em>
       </div>
 
-      <div className="flex py-2">
-        <div className="flex-none px-1">Speaker</div>
-        <div className="flex-1 mb-1 border-b border-dashed border-stone-300"></div>
-        <div className="flex-none px-1">Damario Gough</div>
-      </div>
-
-      <div className="flex py-2">
-        <div className="flex-none px-1">Speaker</div>
-        <div className="flex-1 mb-1 border-b border-dashed border-stone-300"></div>
-        <div className="flex-none px-1">Jennifer Goodman</div>
-      </div>
-
-      <div className="flex py-2">
-        <div className="flex-none px-1">Speaker</div>
-        <div className="flex-1 mb-1 border-b border-dashed border-stone-300"></div>
-        <div className="flex-none px-1">Clar Reynolds</div>
-      </div>
+      <BuildServices services={config.services} />
 
       {/* <HymnItem hymn={config.closingHymn} /> */}
 

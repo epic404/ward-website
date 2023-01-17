@@ -26,23 +26,20 @@
   "isFastSunday": false,
   "services": [
     {
-      "type": "speaker",
+      "service": "Speaker",
       "name": "Damario Gough"
     },
     {
-      "type": "speaker",
+      "service": "Speaker",
       "name": "Jennifer Goodman"
     },
     {
-      "type": "music",
-      "name": "Musical Number",
-      "hymn": {
-        "number": "Josie Huffaker",
-        "title": "I Am Love"
-      }
+      "service": "Musical Number",
+      "number": "Josie Huffaker",
+      "title": "I Am Love"
     },
     {
-      "type": "speaker",
+      "service": "Speaker",
       "name": "Clar Reynolds"
     }
   ],
