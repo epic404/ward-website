@@ -1,16 +1,29 @@
 {
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
-  "organist"
-  "chorister"
-  "presiding"
-  "conducting"
-  "invocation"
-  "benediction"
-  "openingHymn"
-  "closingHymn"
-  "sacramentHymn"
-  "intermediateHymn"
-  "isFastSunday": false
+  "broadcastLink": "https://lds.org",
+  "ward": "Dana Ranch Ward",
+  "organist": "Whitney Kolstad",
+  "chorister": "Myrna Johnson",
+  "presiding": "Bishop Brandon Kent",
+  "conducting": "Matthew Hulse",
+  "invocation": "Sydney Kent",
+  "benediction": "Kerry Bellessa",
+  "openingHymn": {
+    "title": "Choose The Right Plus Extra Text To Test Ellipsis That They Work",
+    "number": 239,
+    "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
+  },
+  "closingHymn": {
+    "title": "Choose The Right",
+    "number": 239,
+    "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
+  },
+  "sacramentHymn": {
+    "title": "Choose The Right",
+    "number": 239,
+    "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
+  },
+  "isFastSunday": false,
   "services": [
     {
       "type": "speaker",
@@ -22,7 +35,11 @@
     },
     {
       "type": "music",
-      "name"
+      "name": "Musical Number",
+      "hymn": {
+        "number": "Josie Huffaker",
+        "title": "I Am Love"
+      }
     },
     {
       "type": "speaker",
@@ -59,11 +76,13 @@
       },
       {
         "type": "release",
-        "items": []
+        "items": [
+          "name from calling"
+        ]
       },
       {
         "type": "sustain",
         "items": []
-      },
+      }
     ]
 }

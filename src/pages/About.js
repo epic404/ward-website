@@ -17,8 +17,7 @@ export default function About() {
       </div>
 
       <div className="text-center text-stone-800 mt-8 italic">
-        {
-          config.scheduleLink
+        {config.scheduleLink
             ? `* Appointments with Bishop can be made over the phone with Brother Jarman or online:`
             : `* Appointments with Bishop can be made over the phone with Brother Jarman.`
         }

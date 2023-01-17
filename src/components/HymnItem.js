@@ -8,7 +8,10 @@ export default function HymnItem({ hymn }) {
       </div>
       {/* TODO: Verify elipsis work. */}
       <div className="text-center">
-        <a href={hymn.link} target="_blank" ref="noreferrer" className="elipsis">{hymn.title}</a>
+        {hymn.link
+          ? <a href={hymn.link} target="_blank" ref="noreferrer" className="elipsis">{hymn.title}</a>
+          : <div>{hymn.title}</div>
+        }
       </div>
     </div>
   );

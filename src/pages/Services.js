@@ -4,7 +4,7 @@ import HymnItem from '../components/HymnItem';
 import SpeakerItem from '../components/SpeakerItem';
 import OnTheStand from '../components/OnTheStand';
 
-export default function Services() {
+export default function Services({ config }) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,15 +31,15 @@ export default function Services() {
         <em>Welcome & Announcements</em>
       </div>
 
-      <HymnItem hymn={config.openingHymn} />
+      {/* <HymnItem hymn={config.openingHymn} /> */}
 
-      <SpeakerItem speaker={config.invocation} />
+      {/* <SpeakerItem speaker={config.invocation} /> */}
 
       <div className="text-center py-4">
         <em>Ward Business</em>
       </div>
 
-      <HymnItem hymn={config.sacramentHymn} />
+      {/* <HymnItem hymn={config.sacramentHymn} /> */}
 
       <div className="text-center py-4">
         <em>Administration of the Sacrament</em>
@@ -57,17 +57,15 @@ export default function Services() {
         <div className="flex-none px-1">Jennifer Goodman</div>
       </div>
 
-      <HymnItem hymn={config.intermediateHymn} />
-
       <div className="flex py-2">
         <div className="flex-none px-1">Speaker</div>
         <div className="flex-1 mb-1 border-b border-dashed border-stone-300"></div>
         <div className="flex-none px-1">Clar Reynolds</div>
       </div>
 
-      <HymnItem hymn={config.closingHymn} />
+      {/* <HymnItem hymn={config.closingHymn} /> */}
 
-      <SpeakerItem speaker={config.benediction} />
+      {/* <SpeakerItem speaker={config.benediction} /> */}
     </div>
   )
 };

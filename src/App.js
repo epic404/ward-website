@@ -5,6 +5,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import WardLink from './components/RouteLink';
 import { getCirclesLink } from './utils/getCirclesLink';
+import config from './config/_test.json'; // TODO: Get this dynamically.
 
 function App() {
   const location = useLocation();
@@ -19,8 +20,8 @@ function App() {
     <img src="https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png" alt="church-logo" />,
     <div className="p-4">
       <Routes>
-        <Route path="/services" element={<Services />} />
-        <Route path="/announcements" element={<Announcements />} />
+        <Route path="/services" element={<Services config={config} />} />
+        <Route path="/announcements" element={<Announcements config={config} />} />
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<Navigate replace to="/services" />} />
       </Routes>
