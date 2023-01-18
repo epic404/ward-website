@@ -1,8 +1,7 @@
 import { v4 } from 'uuid'
 
 export default function AnnouncementItem({ organization, announcements }) {
-  const lastAnnouncement = announcements.length - 1; // TODO: Verify that this works.
-
+  const lastAnnouncement = announcements.length - 1;
   return (
     <div>
       <hr className="h-px my-4 bg-gray-400 border-0" />
@@ -11,7 +10,7 @@ export default function AnnouncementItem({ organization, announcements }) {
           return (
             <div className="text-center" key={v4()}>
               {announcement}
-              {index !== lastAnnouncement && <div class="text-center">✵ ✵ ✵</div>}
+              {index !== lastAnnouncement && <div className="text-center">✵ ✵ ✵</div>}
             </div>
           );
         })}

@@ -6,20 +6,21 @@ import About from './pages/About';
 import Business from './pages/Business';
 import WardLink from './components/RouteLink';
 import { getCirclesLink } from './utils/getCirclesLink';
-import config from './config/_test.json'; // TODO: Get this dynamically.
+import { useConfig } from './utils/useConfig';
 
 function App() {
   const location = useLocation();
   const [currentRoute, setRoute] = useState('');
   const circlesUrl = getCirclesLink();
+  const config = useConfig();
 
   useEffect(() => {
     setRoute(location.pathname)
   }, [location])
 
   return [
-    <img key="app-img" src={config.image} alt="church-logo" />,
-    <div key="app-routes" className="p-4">
+    config && <img key="app-img" src={config.image} alt="church-logo" />,
+    config && <div key="app-routes" className="p-4">
       <Routes>
         <Route path="/services" element={<Services config={config} />} />
         <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />

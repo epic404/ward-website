@@ -1,4 +1,4 @@
-export function getDate() {
+export function getSunday() {
   const today = new Date();
   const monthsMap = {
     0: 'January',
@@ -14,6 +14,10 @@ export function getDate() {
     10: 'November',
     11: 'December'
   };
+  const month = monthsMap[today.getMonth()];
+  const date = (today.getDay() === 0)
+    ? today.getDate()
+    : today.getDate() + (7 - today.getDay());
 
-  return `${monthsMap[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
+  return `${month} ${date}, ${today.getFullYear()}`;
 }
