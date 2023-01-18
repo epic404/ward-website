@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { v4 } from 'uuid';
 
 export default function OnTheStand({ config }) {
@@ -11,7 +12,7 @@ export default function OnTheStand({ config }) {
     <div className="flex py-1" key={v4()}>
       <div className="flex-none px-1">Conducting</div>
       <div className="flex-1 mb-1 border-b border-dashed border-stone-300"></div>
-      <div className="flex-none px-1">{config.conducting}</div>
+      <div className="flex-none px-1"><Link to="/business">{config.conducting}</Link></div>
     </div>,
 
     <div className="flex py-1" key={v4()}>
