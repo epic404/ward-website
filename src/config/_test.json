@@ -6,19 +6,28 @@
   "chorister": "Myrna Johnson",
   "presiding": "Bishop Brandon Kent",
   "conducting": "Matthew Hulse",
-  "invocation": "Sydney Kent",
-  "benediction": "Kerry Bellessa",
+  "invocation": {
+    "type": "Invocation",
+    "name": "Sydney Kent"
+  },
+  "benediction": {
+    "type": "Invocation",
+    "name": "Kerry Bellessa"
+  },
   "openingHymn": {
+    "type": "Opening Hymn",
     "title": "Choose The Right Plus Extra Text To Test Ellipsis That They Work",
     "number": 239,
     "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
   },
   "closingHymn": {
+    "type": "Closing Hymn",
     "title": "Choose The Right",
     "number": 239,
     "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
   },
   "sacramentHymn": {
+    "type": "Sacrament Hymn",
     "title": "Choose The Right",
     "number": 239,
     "link": "https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng" 
@@ -26,20 +35,20 @@
   "isFastSunday": false,
   "services": [
     {
-      "service": "Speaker",
+      "type": "Speaker",
       "name": "Damario Gough"
     },
     {
-      "service": "Speaker",
+      "type": "Speaker",
       "name": "Jennifer Goodman"
     },
     {
-      "service": "Musical Number",
+      "type": "Musical Number",
       "number": "Josie Huffaker",
       "title": "I Am Love"
     },
     {
-      "service": "Speaker",
+      "type": "Speaker",
       "name": "Clar Reynolds"
     }
   ],

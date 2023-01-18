@@ -32,6 +32,14 @@ body {
   margin: 0 auto;
 }
 
+.max-75 {
+  max-width: 75%;
+}
+
+.max-desktop {
+  max-width: 600px;
+}
+
 .condensed-text {
   font-size: 0.9rem;
 }
