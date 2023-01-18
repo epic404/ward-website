@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div>
       <h1 className="text-center py-2 church-font font-lg">Ward Leadership</h1>
-      <div className="condensed-text">
+      <div className="font-sm">
         {config.leadership.map((leader) => <LeaderItem key={v4()} leader={leader} />)}
       </div>
 

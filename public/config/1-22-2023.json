@@ -48,7 +48,8 @@
     },
     {
       "type": "Musical Number",
-      "title": "Jade Overstreet & Holly Kolstad"
+      "title": "Jade Overstreet & Holly Kolstad",
+      "truncate": false
     },
     {
       "type": "Speaker",

@@ -20,6 +20,10 @@ body {
   font-family: "Church Font", Verdana, Tahoma;
 }
 
+.font-sm {
+  font-size: 0.9rem;
+}
+
 .font-md {
   font-size: 1.5rem;
 }
@@ -38,8 +42,4 @@ body {
 
 .max-desktop {
   max-width: 600px;
-}
-
-.condensed-text {
-  font-size: 0.9rem;
 }
