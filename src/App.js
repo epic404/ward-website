@@ -4,7 +4,7 @@ import Announcements from './pages/Announcements';
 import Services from './pages/Services';
 import About from './pages/About';
 import Business from './pages/Business';
-import WardLink from './components/RouteLink';
+import RouteLink from './components/RouteLink';
 import { getCirclesLink } from './utils/getCirclesLink';
 import { useConfig } from './utils/useConfig';
 
@@ -32,12 +32,12 @@ function App() {
       </div>
 
       {/* TODO: Make this a proper footer component w/ dark-ish bg. */}
-      <div className="p-4 mt-8">
-        {currentRoute !== '/services' && <WardLink route="/services" text="Back to order of services" />}
-        {currentRoute === '/services' && <WardLink route="/announcements" text="To announcements" />}
-        {currentRoute === '/services' && <WardLink route="/about" text="To ward leadership" />}
-        {currentRoute === '/about' && <WardLink url={circlesUrl} text="Join the discussion in Circles" />}
-        {currentRoute === '/announcements' && <WardLink url="https://www.churchofjesuschrist.org/calendar/month" text="View ward calendar" />}
+      <div className="bg-stone-200 border-t border-stone-300 p-4 mt-8 text-center">
+        {currentRoute !== '/services' && <RouteLink route="/services" text="Back To Order of Services" />}
+        {currentRoute === '/services' && <RouteLink route="/announcements" text="Announcements" />}
+        {currentRoute === '/services' && <RouteLink route="/about" text="Ward Leadership" />}
+        {currentRoute === '/announcements' && <RouteLink url={circlesUrl} text="Join The Conversation In Circles" />}
+        {currentRoute === '/announcements' && <RouteLink url="https://www.churchofjesuschrist.org/calendar/month" text="View Ward Calendar" />}
       </div>
     </div>
   );
