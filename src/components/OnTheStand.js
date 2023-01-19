@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { v4 } from 'uuid';
 
 export default function OnTheStand({ config }) {
   return (
