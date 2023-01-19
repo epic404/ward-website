@@ -18,26 +18,29 @@ function App() {
     setRoute(location.pathname)
   }, [location])
 
-  return [
-    config && <img key="app-img" src={config.image} alt="church-logo" />,
-    config && <div key="app-routes" className="p-4">
-      <Routes>
-        <Route path="/services" element={<Services config={config} />} />
-        <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/business" element={<Business />} />
-        <Route path="/*" element={<Navigate replace to="/services" />} />
-      </Routes>
+  return config && (
+    <div>
+      <img src={config.image} alt="church-logo" />,
+      <div className="p-2">
+        <Routes>
+          <Route path="/services" element={<Services config={config} />} />
+          <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/business" element={<Business />} />
+          <Route path="/*" element={<Navigate replace to="/services" />} />
+        </Routes>
+      </div>
 
-      <div className="border border-gray-400 p-4 mt-8">
-        {currentRoute !== '/services'  && <WardLink route="/services" text="Back to order of services" />}
+      {/* TODO: Make this a proper footer component w/ dark-ish bg. */}
+      <div className="p-4 mt-8">
+        {currentRoute !== '/services' && <WardLink route="/services" text="Back to order of services" />}
         {currentRoute === '/services' && <WardLink route="/announcements" text="To announcements" />}
         {currentRoute === '/services' && <WardLink route="/about" text="To ward leadership" />}
         {currentRoute === '/about' && <WardLink url={circlesUrl} text="Join the discussion in Circles" />}
         {currentRoute === '/announcements' && <WardLink url="https://www.churchofjesuschrist.org/calendar/month" text="View ward calendar" />}
       </div>
     </div>
-  ];
+  );
 }
 
 export default App;
