@@ -32,7 +32,9 @@ function App() {
       </div>
 
       {/* TODO: Make this a proper footer component w/ dark-ish bg. */}
-      <div className="bg-stone-200 border-t border-stone-300 p-4 mt-8 text-center">
+      <hr className="h-px my-4 bg-gray-400 border-0" />
+
+      <div className="py-2 mb-4 text-center">
         {currentRoute !== '/services' && <RouteLink route="/services" text="Back To Order of Services" />}
         {currentRoute === '/services' && <RouteLink route="/announcements" text="Announcements" />}
         {currentRoute === '/services' && <RouteLink route="/about" text="Ward Leadership" />}
