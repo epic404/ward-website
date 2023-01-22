@@ -66,24 +66,9 @@
   ],
   "announcements": [
     {
-      "organization": "Primary",
+      "organization": "Stake",
       "announcements": [
-        "This Sunday there will be donuts in the hallway.",
-        "Next Sunday we will sing some songs."
-      ]
-    },
-    {
-      "organization": "Relief Society",
-      "announcements": [
-        "This Sunday our lesson will be about faith.",
-        "During the week we have a dinner."
-      ]
-    },
-    {
-      "organization": "Young Women",
-      "announcements": [
-        "This Saturday we are attending the temple.",
-        "We encourage all youth and parents to sign up for seminary."
+        "Next week is Stake Conference, with the adult session beginning on Saturday at 7pm and the regular session on Sunday at 10am."
       ]
     }
   ],
