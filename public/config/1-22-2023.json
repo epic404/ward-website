@@ -9,11 +9,11 @@
   "conducting": "Bishop Brandon Kent",
   "invocation": {
     "type": "Invocation",
-    "name": "By Invitation"
+    "name": "Paul Kessler"
   },
   "benediction": {
     "type": "Invocation",
-    "name": "By Invitation"
+    "name": "Chase Roberts"
   },
   "openingHymn": {
     "type": "Opening Hymn",
@@ -48,9 +48,8 @@
     },
     {
       "type": "Musical Number",
-      "title": "Jade Overstreet & Holly Kolstad",
-      "number": "My Heavenly Father Loves Me",
-      "truncate": false
+      "musicians": ["Jade Overstreet", "Holly Kolstad"],
+      "title": "\"My Heavenly Father Loves Me\""
     },
     {
       "type": "Speaker",

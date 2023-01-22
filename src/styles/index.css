@@ -47,3 +47,7 @@ body {
 .max-desktop {
   max-width: 600px;
 }
+
+.height-18 {
+  height: 18px;
+}
