@@ -11,7 +11,7 @@ function generateRouteContents(text) {
 
 export default function RouteLink({ text, route, url }) {
   return (
-    <div className="underline my-1 font-route text-blue-600">
+    <div className="underline my-1 font-route text-teal-600 font-semibold">
       {route && <Link to={route}>{generateRouteContents(text)}</Link>}
       {url && <a href={url} target="_blank" rel="noreferrer">{generateRouteContents(text)}</a>}
     </div>

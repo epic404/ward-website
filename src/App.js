@@ -20,7 +20,7 @@ function App() {
 
   return config && (
     <div>
-      <img src={config.image} alt="church-logo" />,
+      <img src={config.image} alt="church-logo" />
       <div className="p-2">
         <Routes>
           <Route path="/services" element={<Services config={config} />} />

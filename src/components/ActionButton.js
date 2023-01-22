@@ -3,7 +3,7 @@ export default function ActionButton({ link, text }) {
     <div className="text-center py-2">
       <a href={link} target="_blank" rel="noreferrer">
         <button
-          className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          className="bg-transparent text-teal-600 font-semibold py-2 px-4 border-2 border-teal-600 rounded">
           {text}
         </button>
       </a>
