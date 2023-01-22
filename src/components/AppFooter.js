@@ -5,7 +5,7 @@ export default function AppFooter({ currentRoute }) {
   const circlesUrl = getCirclesLink();
 
   return (
-    <div>
+    <div class="p-2">
       <hr className="h-px my-4 bg-gray-400 border-0" />
       <div className="py-2 mb-8 text-center">
         {currentRoute !== '/services' && <RouteLink route="/services" text="Back To Order of Services" />}

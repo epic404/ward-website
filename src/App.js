@@ -24,7 +24,7 @@ function App() {
           <Route path="/services" element={<Services config={config} />} />
           <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />
           <Route path="/about" element={<About />} />
-          <Route path="/business" element={<Business />} />
+          <Route path="/business" element={<Business business={config.wardBusiness} />} />
           <Route path="/*" element={<Navigate replace to="/services" />} />
         </Routes>
       </div>

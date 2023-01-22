@@ -87,20 +87,15 @@
       ]
     }
   ],
-  "wardBusiness": [
-    {
-      "type": "baptized",
-      "items": []
-    },
-    {
-      "type": "release",
-      "items": [
-        "name from calling"
-      ]
-    },
-    {
-      "type": "sustain",
-      "items": []
-    }
-  ]
+  "wardBusiness": {
+    "baptisms": [],
+    "ordinations": [],
+    "newMovins": [],
+    "Other": [],
+    "releases": [],
+    "callings": [],
+    "deaths": [
+      "Warren Koons"
+    ]
+  }
 }
