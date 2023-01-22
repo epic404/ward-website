@@ -36,6 +36,10 @@
   "services": [
     {
       "type": "Speaker",
+      "name": "Paul Cox"
+    },
+    {
+      "type": "Speaker",
       "name": "Steven Ray"
     },
     {
@@ -50,6 +54,10 @@
       "type": "Musical Number",
       "musicians": ["Jade Overstreet", "Holly Kolstad"],
       "title": "\"My Heavenly Father Loves Me\""
+    },
+    {
+      "type": "Speaker",
+      "name": "Sheldon Webb"
     },
     {
       "type": "Speaker",
@@ -70,6 +78,13 @@
       "announcements": [
         "Next week is Stake Conference, with the adult session beginning on Saturday at 7pm and the regular session on Sunday at 10am."
       ]
+    },
+    {
+      "organization": "Bishopric",
+      "announcements": [
+        "The Bishopric will be holding interviews for FSY today after church at the clerks office. All youth planning on attending FSY will need to be interviewed first. Registration begins on the 25th at 9am.",
+        ""
+      ]
     }
   ],
   "wardBusiness": {
@@ -77,8 +92,21 @@
     "ordinations": [],
     "newMovins": [],
     "Other": [],
-    "releases": [],
-    "callings": [],
+    "releases": [
+      "Michael Overstreet - Deacons Quorum Specialist",
+      "Jeff Downs -  Deacons Quorum Advisor",
+      "Sabrina Hulse - Activity Day Leader",
+      "Rachel Downs - Primary Teacher"
+    ],
+    "callings": [
+      "Jeff Downs - Activity Day Leader",
+      "Michael Overstreet - Activity Day Leader",
+      "Chris Coleman - Activity Day Leader",
+      "Jaron Speakman - Sunday School Teacher",
+      "Benjamin Van Cappelle - Sunday School Teacher",
+      "Jordan Van Capelle - Sunday School Teacher",
+      "Kerry Balessa - Deacons Quorum Advisor"
+    ],
     "deaths": [
       "Warren Koons"
     ]
