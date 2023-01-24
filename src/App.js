@@ -16,7 +16,11 @@ function App() {
     setRoute(location.pathname)
   }, [location])
 
-  return config && (
+  if (!config) {
+    return (<div>Do your ministring and check back</div>); // TODO
+  }
+
+  return (
     <div>
       <img src={config.image} alt="church-logo" />
       <div className="p-2">
