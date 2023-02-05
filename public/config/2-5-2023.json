@@ -2,37 +2,37 @@
   "ward": "Dana Ranch Ward",
   "isFastSunday": true,
   "broadcastLink": "https://youtu.be/DdR2NAFE2ss",
-  "visibilityHash": "8350e5a3e24c153df2275c9f80692773",
+  "secureHash": "8350e5a3e24c153df2275c9f80692773",
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
   "organist": "Whitney Kolstad",
-  "chorister": "Kimberly Huffaker",
-  "presiding": "Bishop Brandon Kent",
-  "conducting": "Brother Matthew Hulse",
+  "chorister": "Elizabeth Kasl",
+  "presiding": "Bishop Kent",
+  "conducting": "Matthew Hulse",
   "invocation": {
     "type": "Invocation",
-    "name": "Paul Kessler"
+    "name": "Joe Capps"
   },
   "benediction": {
     "type": "Invocation",
-    "name": "Chase Roberts"
+    "name": "Shaeli Kersee"
   },
   "openingHymn": {
     "type": "Opening Hymn",
-    "title": "The Day Dawn Is Breaking",
-    "number": 52,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/the-day-dawn-is-breaking?lang=eng"
+    "title": "Come, Ye Children Of The Lord",
+    "number": 58,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/come-ye-children-of-the-lord?lang=eng"
   },
   "sacramentHymn": {
     "type": "Sacrament Hymn",
-    "title": "With Humble Heart",
-    "number": 171,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/with-humble-heart?lang=eng"
+    "title": "In Humility Our Savior",
+    "number": 172,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/in-humility-our-savior?lang=eng"
   },
   "closingHymn": {
     "type": "Closing Hymn",
-    "title": "I Know My Father Lives",
-    "number": 302,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/i-know-my-father-lives?lang=eng"
+    "title": "Lord We Ask Thee Ere We Part",
+    "number": 153,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/lord-we-ask-thee-ere-we-part?lang=eng"
   },
   "services": [
   ],
@@ -52,24 +52,17 @@
     }
   ],
   "wardBusiness": {
-    "baptisms": [],
+    "baptisms": [
+      "Jackson Roberts"
+    ],
     "ordinations": [],
     "newMovins": [],
     "Other": [],
     "releases": [
-      "Michael Overstreet - Deacons Quorum Specialist",
-      "Jeff Downs -  Deacons Quorum Advisor",
-      "Sabrina Hulse - Activity Day Leader",
-      "Rachel Downs - Primary Teacher"
     ],
     "callings": [
-      "Jeff Downs - Activity Day Leader",
-      "Michael Overstreet - Activity Day Leader",
-      "Chris Coleman - Activity Day Leader",
-      "Jaron Speakman - Sunday School Teacher",
-      "Benjamin Van Cappelle - Sunday School Teacher",
-      "Jordan Van Capelle - Sunday School Teacher",
-      "Kerry Balessa - Deacons Quorum Advisor"
+      "Julie Clement as Ward Chorister",
+      "Elizabeth Kasl as Ward Chorister"
     ],
     "deaths": [
     ]

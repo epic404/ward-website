@@ -11,26 +11,24 @@ import NoConfig from './pages/NoConfig';
 
 function App() {
   const [currentRoute, setRoute] = useState('');
-  const [canViewServices, setCanViewServices] = useState(false);
+  const [canViewServices, setCanViewServices] = useState(true);
   const location = useLocation();
   const config = useConfig();
-  const isLocalhost = window.location.host === 'localhost:3000';
-  const visibilityHash = window.location.search.split('=')[1] ?? 'NOT_FOUND';
 
   // TODO: Make custom hook
   useEffect(() => {
     setRoute(location.pathname)
   }, [location]);
 
-  useEffect(() => {
-    if (config) {
-      setCanViewServices(visibilityHash === config.visibilityHash);
-    }
-  }, [config]);
+  // useEffect(() => {
+  //   if (config) {
+  //     setCanViewServices(currentRoute.includes(config.secureHash));
+  //   }
+  // }, [config, currentRoute]);
 
   return [
     config?.hasConfig && canViewServices && (
-      <div>
+      <div key="200">
         <img src={config.image} alt="church-logo" />
         <div className="p-2">
           <Routes>
@@ -41,11 +39,11 @@ function App() {
             <Route path="/*" element={<Navigate replace to="/services" />} />
           </Routes>
         </div>
-        <AppFooter currentRoute={currentRoute} queryParam={`?hash=${visibilityHash}`} />
+        <AppFooter currentRoute={currentRoute} />
       </div>
     ),
-    config?.hasConfig && !canViewServices && <MembersOnly />,
-    !config?.hasConfig && <NoConfig />
+    config?.hasConfig && !canViewServices && <MembersOnly key="403" />,
+    !config?.hasConfig && <NoConfig key="404" />
   ];
 }
 
