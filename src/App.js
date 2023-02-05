@@ -15,16 +15,26 @@ function App() {
   const location = useLocation();
   const config = useConfig();
 
+  // TODO: Make hook or util.
+  useEffect(() => {
+    const secureHash = window.location.search.split('=')[1] ?? 'NOT_FOUND';
+    localStorage.setItem('secureHash', secureHash);
+  }, []);
+
   // TODO: Make custom hook
   useEffect(() => {
     setRoute(location.pathname)
   }, [location]);
 
-  // useEffect(() => {
-  //   if (config) {
-  //     setCanViewServices(currentRoute.includes(config.secureHash));
-  //   }
-  // }, [config, currentRoute]);
+
+  // TODO: Look into local storage and set it to expire after a day if you can.
+  useEffect(() => {
+    if (config) {
+      const secureHash = localStorage.getItem('secureHash');
+      const secureHashMatch = (secureHash === config.secureHash);
+      setCanViewServices(secureHashMatch);
+    }
+  }, [config, currentRoute]);
 
   return [
     config?.hasConfig && canViewServices && (

@@ -1,5 +1,5 @@
 export default function NoConfig() {
   return (
-    <div>No Config</div>
+    <div>Please check back later this week!</div>
   );
 }
