@@ -11,30 +11,35 @@ function App() {
   const location = useLocation();
   const [currentRoute, setRoute] = useState('');
   const config = useConfig();
+  const isLocalhost = window.location.host === 'localhost:3000';
+  const visibilityHash = window.location.search.split('=')[1] ?? 'NOT_FOUND';
+  const canViewServices = isLocalhost || visibilityHash === process.env.VISIBILITY_HASH;
 
+  // TODO: Make custom hook
   useEffect(() => {
     setRoute(location.pathname)
-  }, [location])
+    console.log(location)
+  }, [location]);
 
-  if (!config) {
-    return (<div>Do your ministring and check back</div>); // TODO
-  }
-
-  return (
-    <div>
-      <img src={config.image} alt="church-logo" />
-      <div className="p-2">
-        <Routes>
-          <Route path="/services" element={<Services config={config} />} />
-          <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/business" element={<Business business={config.wardBusiness} />} />
-          <Route path="/*" element={<Navigate replace to="/services" />} />
-        </Routes>
+  return [
+    config && canViewServices && (
+      <div>
+        <img src={config.image} alt="church-logo" />
+        <div className="p-2">
+          <Routes>
+            <Route path="/services" element={<Services config={config} />} />
+            <Route path="/announcements" element={<Announcements announcements={config.announcements} />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/business" element={<Business business={config.wardBusiness} />} />
+            <Route path="/*" element={<Navigate replace to="/services" />} />
+          </Routes>
+        </div>
+        <AppFooter currentRoute={currentRoute} />
       </div>
-    <AppFooter currentRoute={currentRoute} />
-    </div>
-  );
+    ),
+    !canViewServices && (<div>Visible to ward members only.</div>),
+    !config && canViewServices && (<div>We are making assignments.</div>)
+  ];
 }
 
 export default App;

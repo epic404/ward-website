@@ -15,9 +15,13 @@ export function useConfig() {
   const [config, setConfig] = useState(null);
 
   const getConfig = async () => {
-    const res = await fetch(getConfigPath());
-    const configData = await res.json();
-    setConfig(configData);
+    try {
+      const res = await fetch(getConfigPath());
+      const configData = await res.json();
+      setConfig(configData);
+    } catch (error) {
+      console.log('Config error:', error);
+    }
   };
 
   useEffect(() => {
