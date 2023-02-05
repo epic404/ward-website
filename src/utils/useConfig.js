@@ -18,9 +18,9 @@ export function useConfig() {
     try {
       const res = await fetch(getConfigPath());
       const configData = await res.json();
-      setConfig(configData);
+      setConfig({ ...configData, hasConfig: true });
     } catch (error) {
-      console.log('Config error:', error);
+      setConfig({ hasConfig: false });
     }
   };
 

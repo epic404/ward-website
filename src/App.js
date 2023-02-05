@@ -6,23 +6,30 @@ import About from './pages/About';
 import Business from './pages/Business';
 import { useConfig } from './utils/useConfig';
 import AppFooter from './components/AppFooter';
+import MembersOnly from './pages/MembersOnly';
+import NoConfig from './pages/NoConfig';
 
 function App() {
-  const location = useLocation();
   const [currentRoute, setRoute] = useState('');
+  const [canViewServices, setCanViewServices] = useState(false);
+  const location = useLocation();
   const config = useConfig();
   const isLocalhost = window.location.host === 'localhost:3000';
   const visibilityHash = window.location.search.split('=')[1] ?? 'NOT_FOUND';
-  const canViewServices = isLocalhost || visibilityHash === config.visibilityHash;
 
   // TODO: Make custom hook
   useEffect(() => {
     setRoute(location.pathname)
-    console.log(location)
   }, [location]);
 
+  useEffect(() => {
+    if (config) {
+      setCanViewServices(visibilityHash === config.visibilityHash);
+    }
+  }, [config]);
+
   return [
-    config && canViewServices && (
+    config?.hasConfig && canViewServices && (
       <div>
         <img src={config.image} alt="church-logo" />
         <div className="p-2">
@@ -34,11 +41,11 @@ function App() {
             <Route path="/*" element={<Navigate replace to="/services" />} />
           </Routes>
         </div>
-        <AppFooter currentRoute={currentRoute} />
+        <AppFooter currentRoute={currentRoute} queryParam={`?hash=${visibilityHash}`} />
       </div>
     ),
-    !canViewServices && (<div>Visible to ward members only.</div>),
-    !config && canViewServices && (<div>We are making assignments.</div>)
+    config?.hasConfig && !canViewServices && <MembersOnly />,
+    !config?.hasConfig && <NoConfig />
   ];
 }
 
