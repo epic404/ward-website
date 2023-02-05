@@ -2,11 +2,12 @@
   "ward": "Dana Ranch Ward",
   "isFastSunday": true,
   "broadcastLink": "https://youtu.be/DdR2NAFE2ss",
+  "visibilityHash": "8350e5a3e24c153df2275c9f80692773",
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
   "organist": "Whitney Kolstad",
   "chorister": "Kimberly Huffaker",
   "presiding": "Bishop Brandon Kent",
-  "conducting": "Bishop Brandon Kent",
+  "conducting": "Brother Matthew Hulse",
   "invocation": {
     "type": "Invocation",
     "name": "Paul Kessler"

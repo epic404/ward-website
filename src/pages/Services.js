@@ -26,7 +26,12 @@ export default function Services({ config }) {
       <BlockItem item="Ward Business" />
       <HymnItem hymn={config.sacramentHymn} />
       <BlockItem item="Administration of the Sacrament" />
-      <BuildServices services={config.services} />
+      {!config.isFastSunday && 
+        <BuildServices services={config.services} />
+      }
+      {config.isFastSunday && 
+        <BlockItem item="Bearing of Testimonies" />
+      }
       <HymnItem hymn={config.closingHymn} />
       <SpeakerItem speaker={config.benediction} />
     </div>

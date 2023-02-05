@@ -13,7 +13,7 @@ function App() {
   const config = useConfig();
   const isLocalhost = window.location.host === 'localhost:3000';
   const visibilityHash = window.location.search.split('=')[1] ?? 'NOT_FOUND';
-  const canViewServices = isLocalhost || visibilityHash === process.env.VISIBILITY_HASH;
+  const canViewServices = isLocalhost || visibilityHash === config.visibilityHash;
 
   // TODO: Make custom hook
   useEffect(() => {
