@@ -20,6 +20,7 @@ export function useConfig() {
       const configData = await res.json();
       setConfig({ ...configData, hasConfig: true });
     } catch (error) {
+      // TODO get prev week.
       setConfig({ hasConfig: false });
     }
   };

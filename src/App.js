@@ -36,6 +36,17 @@ function App() {
     }
   }, [config, currentRoute]);
 
+  // TODO: change hymn and speaker "type" to be "label"
+  // TODO: Update useConfig to use prev week's config if there's nothing for this week yet.
+  // TODO: If there's nothing for last week either then show a UI at services only that we are working on it.
+  // TODO: Add a nice full-page splash for unauthenticated component.
+  // TODO: Add dropdown to select previous week's program
+  // TODO: Add a JSON editor to create new JSON files and commit updates to the repo. Use Formik and taliwind for the form.
+  // TODO: Add passcode's to the business page and /admin page.
+  // TODO: Passcode to over-ride hash in all cases. Passcode entry is a hidden button.
+  // TODO: Add the star dividers to ward business.
+  // TODO: Create prompt components for ward business. Block quotes for what to say.
+  
   return [
     config?.hasConfig && canViewServices && (
       <div key="200">
