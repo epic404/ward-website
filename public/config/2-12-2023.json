@@ -1,93 +1,91 @@
 {
   "ward": "Dana Ranch Ward",
   "isFastSunday": false,
-  "broadcastLink": "https://youtu.be/XHayZHZPe48",
-  "secureHash": "8350e5a3e24c153df2275c9f80692773",
+  "broadcastLink": "https://www.youtube.com/watch?v=DdR2NAFE2ss",
+  "secureHash": "8350e5a3e24c153df2275c9f80692755",
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
   "organist": "Whitney Kolstad",
-  "chorister": "Kimberly Huffaker",
+  "chorister": "Julie Clement",
   "presiding": "Bishop Kent",
-  "conducting": "Bishop Kent",
+  "conducting": "Matthew Hulse",
   "invocation": {
     "type": "Invocation",
-    "name": "Paul Kessler"
+    "name": "Sabrina Hulse"
   },
   "benediction": {
     "type": "Invocation",
-    "name": "Chase Roberts"
+    "name": "Andrew Jarman"
   },
   "openingHymn": {
     "type": "Opening Hymn",
-    "title": "The Day Dawn Is Breaking",
-    "number": 52,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/the-day-dawn-is-breaking?lang=eng"
+    "title": "Come, O Thou King of Kings",
+    "number": 59,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/come-o-thou-king-of-kings?lang=eng"
   },
   "sacramentHymn": {
     "type": "Sacrament Hymn",
-    "title": "With Humble Heart",
-    "number": 171,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/with-humble-heart?lang=eng"
+    "title": "While of These Emblems We Partake",
+    "number": 173,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/while-of-these-emblems-we-partake-173?lang=eng"
   },
   "closingHymn": {
     "type": "Closing Hymn",
-    "title": "I Know My Father Lives",
-    "number": 302,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/i-know-my-father-lives?lang=eng"
+    "title": "Truth Eternal",
+    "number": 4,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/truth-eternal?lang=eng"
   },
   "services": [
     {
       "type": "Speaker",
-      "name": "Paul Cox"
-    },
-    {
-      "type": "Speaker",
-      "name": "Steven Ray"
-    },
-    {
-      "type": "Speaker",
-      "name": "Lisa Brandt"
-    },
-    {
-      "type": "Speaker",
-      "name": "Mike Cooley"
+      "name": "Dillon Grenko"
     },
     {
       "type": "Musical Number",
-      "musicians": [
-        "Jade Overstreet",
-        "Holly Kolstad"
-      ],
-      "title": "\"My Heavenly Father Loves Me\""
+      "musicians": [ "Ward Chior" ],
+      "title": "\"Love At Home\""
     },
     {
       "type": "Speaker",
-      "name": "Sheldon Webb"
+      "name": "Jeremy Hoover"
     },
     {
       "type": "Speaker",
-      "name": "Jim Stewart"
-    },
-    {
-      "type": "Speaker",
-      "name": "Sabrina Hulse"
-    },
-    {
-      "type": "Speaker",
-      "name": "Lauren Ashby"
+      "name": "Kyle Huffaker"
     }
   ],
   "announcements": [
     {
-      "organization": "Stake",
+      "organization": "Ward",
       "announcements": [
-        "Next week is Stake Conference, with the adult session beginning on Saturday at 7pm and the regular session on Sunday at 10am."
+        "Choir practice will resume beginning after church in the Relief Society room at 1:15."
       ]
     },
     {
       "organization": "Bishopric",
       "announcements": [
-        "The Bishopric will be holding interviews for FSY today after church at the clerks office. All youth planning on attending FSY will need to be interviewed first. Registration begins on the 25th at 9am.",
-        ""
+        "Our Stake has organized a single adult committee for single members of our stake between the ages of 31 - 45. We are in need of a committee representative from our ward to participate in planning events and activities, if you have interest in serving in this capacity please reach out to a member of the bishopric."
+      ]
+    },
+    {
+      "organization": "Jr Primary Assignments",
+      "announcements": [
+        "2/12 Opening Prayer: Bristol Gray",
+        "2/12 Talk: Lukas Roberts",
+        "2/19 Opening Prayer: Everett Jarman",
+        "2/19 Talk: Nash Flake",
+        "2/26 Opening Prayer: Rhodes Kent",
+        "2/26 Talk: Taryn Hardy"
+      ]
+    },
+    {
+      "organization": "Sr Primary Assignments",
+      "announcements": [
+        "2/12 Talk: Caleb Murray",
+        "2/12 Closing Prayer: Holly Kolstad",
+        "2/19 Talk: Billy Cox",
+        "2/19 Closing Prayer: Jade Overstreet",
+        "2/26 Talk: Olivia Downs",
+        "2/26 Closing Prayer: Anne Flaherty"
       ]
     }
   ],
