@@ -40,13 +40,15 @@
       "name": "Dillon Grenko"
     },
     {
-      "type": "Musical Number",
-      "musicians": [ "Ward Chior" ],
-      "title": "\"Love At Home\""
-    },
-    {
       "type": "Speaker",
       "name": "Jeremy Hoover"
+    },
+    {
+      "type": "Musical Number",
+      "musicians": [
+        "Ward Chior"
+      ],
+      "title": "\"Love At Home\""
     },
     {
       "type": "Speaker",
@@ -86,6 +88,12 @@
         "2/19 Closing Prayer: Jade Overstreet",
         "2/26 Talk: Olivia Downs",
         "2/26 Closing Prayer: Anne Flaherty"
+      ]
+    },
+    {
+      "organization": "Stake Relief Society",
+      "announcements": [
+        "The annual Kimball Stake Relief Society Event is coming up in two weeks on February 28, 2023 at 6:30 at the Stake Center.  We are having a Stake Service Night. We will be working on 12 JustServe Projects.  We will also be having a light dinner while the sisters serve."
       ]
     }
   ],
