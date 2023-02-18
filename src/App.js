@@ -46,6 +46,7 @@ function App() {
   // TODO: Passcode to over-ride hash in all cases. Passcode entry is a hidden button.
   // TODO: Add the star dividers to ward business.
   // TODO: Create prompt components for ward business. Block quotes for what to say.
+  //TODO: In schema, everywhere we have "organization" or "type", change to "label".
   
   return [
     config?.hasConfig && canViewServices && (
