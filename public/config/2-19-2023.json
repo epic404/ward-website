@@ -1,0 +1,105 @@
+{
+  "ward": "Dana Ranch Ward",
+  "isFastSunday": false,
+  "broadcastLink": "https://www.youtube.com/watch?v=2N7F2ho1ru4",
+  "secureHash": "8350e5a3e24c173df2275c9f80692755",
+  "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
+  "organist": "Whitney Kolstad",
+  "chorister": "Myrna Johnson",
+  "presiding": "Bishop Kent",
+  "conducting": "David Kolstad",
+  "invocation": {
+    "type": "Invocation",
+    "name": "By Invitation"
+  },
+  "benediction": {
+    "type": "Invocation",
+    "name": "By Invitation"
+  },
+  "openingHymn": {
+    "type": "Opening Hymn",
+    "title": "On This Day of Joy and Gladness",
+    "number": 64,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/on-this-day-of-joy-and-gladness?lang=eng"
+  },
+  "sacramentHymn": {
+    "type": "Sacrament Hymn",
+    "title": "While of These Emblems We Partake",
+    "number": 174,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/while-of-these-emblems-we-partake-174?lang=eng"
+  },
+  "closingHymn": {
+    "type": "Closing Hymn",
+    "title": "I Know My Father Lives",
+    "number": 302,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/i-know-my-father-lives?lang=eng"
+  },
+  "services": [
+    {
+      "type": "Speaker",
+      "name": "Emma Tyler"
+    },
+    {
+      "type": "Musical Number",
+      "musicians": [
+        "Reynolds Family"
+      ],
+      "title": "\"I Feel My Savior's Love\""
+    },
+    {
+      "type": "Speaker",
+      "name": "Robert Jarvis"
+    }
+  ],
+  "announcements": [
+    {
+      "organization": "Ward",
+      "announcements": [
+        "Choir practice will resume beginning after church in the Relief Society room at 1:15."
+      ]
+    },
+    {
+      "organization": "Bishopric",
+      "announcements": [
+        "Our Stake has organized a single adult committee for single members of our stake between the ages of 31 - 45. We are in need of a committee representative from our ward to participate in planning events and activities, if you have interest in serving in this capacity please reach out to a member of the bishopric."
+      ]
+    },
+    {
+      "organization": "Jr Primary Assignments",
+      "announcements": [
+        "2/12 Opening Prayer: Bristol Gray",
+        "2/12 Talk: Lukas Roberts",
+        "2/19 Opening Prayer: Everett Jarman",
+        "2/19 Talk: Nash Flake",
+        "2/26 Opening Prayer: Rhodes Kent",
+        "2/26 Talk: Taryn Hardy"
+      ]
+    },
+    {
+      "organization": "Sr Primary Assignments",
+      "announcements": [
+        "2/12 Talk: Caleb Murray",
+        "2/12 Closing Prayer: Holly Kolstad",
+        "2/19 Talk: Billy Cox",
+        "2/19 Closing Prayer: Jade Overstreet",
+        "2/26 Talk: Olivia Downs",
+        "2/26 Closing Prayer: Anne Flaherty"
+      ]
+    },
+    {
+      "organization": "Stake Relief Society",
+      "announcements": [
+        "The annual Kimball Stake Relief Society Event is coming up in two weeks on February 28, 2023 at 6:30 at the Stake Center.  We are having a Stake Service Night. We will be working on 12 JustServe Projects.  We will also be having a light dinner while the sisters serve."
+      ]
+    }
+  ],
+  "wardBusiness": {
+    "baptisms": [],
+    "ordinations": [],
+    "newMovins": [],
+    "Other": [],
+    "releases": [],
+    "callings": [],
+    "deaths": []
+  }
+}
