@@ -16,7 +16,7 @@ export default function MembersOnly() {
     <div>
       <img style={styles.image} src="/images/church-logo.png" />
       <div style={styles.text}>
-        <h2>The Dana Ranch Ward order of services is distributed weekly to ward members and is accessible via email link only. Please check your email inbox or contact a member of the Bishopric for assistance.</h2>
+        <h2>The Dana Ranch Ward order of services is distributed weekly to ward members, and is accessible via email link only. Please check your email inbox or contact a member of the Bishopric for assistance.</h2>
       </div>
     </div>
   );
