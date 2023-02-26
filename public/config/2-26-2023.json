@@ -1,0 +1,73 @@
+{
+  "ward": "Dana Ranch Ward",
+  "isFastSunday": false,
+  "broadcastLink": "https://www.youtube.com/watch?v=2N7F2ho1ru4",
+  "secureHash": "8350e5a3e24c173df2275c9f80692755",
+  "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
+  "organist": "Christine Cooley",
+  "chorister": "Myrna Johnson",
+  "presiding": "Bishop Kent",
+  "conducting": "David Kolstad",
+  "invocation": {
+    "type": "Invocation",
+    "name": "Mark Fast"
+  },
+  "benediction": {
+    "type": "Invocation",
+    "name": "Autumn Shumway"
+  },
+  "openingHymn": {
+    "type": "Opening Hymn",
+    "title": "On This Day of Joy and Gladness",
+    "number": 64,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/on-this-day-of-joy-and-gladness?lang=eng"
+  },
+  "sacramentHymn": {
+    "type": "Sacrament Hymn",
+    "title": "While of These Emblems We Partake",
+    "number": 174,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/while-of-these-emblems-we-partake-174?lang=eng"
+  },
+  "closingHymn": {
+    "type": "Closing Hymn",
+    "title": "I Know My Father Lives",
+    "number": 302,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/i-know-my-father-lives?lang=eng"
+  },
+  "services": [
+    {
+      "type": "Speaker",
+      "name": "Emma Tyler"
+    },
+    {
+      "type": "Musical Number",
+      "musicians": [
+        "Reynolds Family"
+      ],
+      "title": "\"I Feel My Savior's Love\""
+    },
+    {
+      "type": "Speaker",
+      "name": "Robert Jarvis"
+    }
+  ],
+  "announcements": [
+    {
+      "organization": "Ministering",
+      "announcements": [
+        "There may be members of our ward who are not recieving communications or the order of services. We invite all ministers to please check in the ward directory that your ministering families have a household email address, and if they don't to please help them to set one up. Please contact Brother Flaherty if you need assistance."
+      ]
+    }
+  ],
+  "wardBusiness": {
+    "baptisms": [
+      "Brinlee Kessler"
+    ],
+    "ordinations": [],
+    "newMovins": [],
+    "Other": [],
+    "releases": [],
+    "callings": [],
+    "deaths": []
+  }
+}
