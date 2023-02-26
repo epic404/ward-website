@@ -2,10 +2,10 @@
   "ward": "Dana Ranch Ward",
   "isFastSunday": false,
   "broadcastLink": "https://www.youtube.com/watch?v=rHh0N_Xbm9s",
-  "secureHash": "8350e5a3e24c173df2275c9f80692755",
+  "secureHash": "8350e5a8e24c173df2275c9f80692755",
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
-  "organist": "Christine Cooley",
-  "chorister": "Myrna Johnson",
+  "organist": "Whitney Kolstad",
+  "chorister": "Julie Clement",
   "presiding": "Bishop Kent",
   "conducting": "Matthew Hulse",
   "invocation": {
@@ -18,21 +18,21 @@
   },
   "openingHymn": {
     "type": "Opening Hymn",
-    "title": "On This Day of Joy and Gladness",
-    "number": 64,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/on-this-day-of-joy-and-gladness?lang=eng"
+    "title": "Rejoice, the Lord Is King!",
+    "number": 66,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/rejoice-the-lord-is-king?lang=eng"
   },
   "sacramentHymn": {
     "type": "Sacrament Hymn",
-    "title": "While of These Emblems We Partake",
-    "number": 174,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/while-of-these-emblems-we-partake-174?lang=eng"
+    "title": "O God, the Eternal Father",
+    "number": 175,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/o-god-the-eternal-father?lang=eng"
   },
   "closingHymn": {
     "type": "Closing Hymn",
-    "title": "I Know My Father Lives",
-    "number": 302,
-    "link": "https://www.churchofjesuschrist.org/music/text/hymns/i-know-my-father-lives?lang=eng"
+    "title": "Got Be with You Till We Meet Again",
+    "number": 152,
+    "link": "https://www.churchofjesuschrist.org/music/text/hymns/god-be-with-you-till-we-meet-again?lang=eng"
   },
   "services": [
     {
@@ -44,15 +44,14 @@
       "name": "Bobbi Rogers"
     },
     {
-      "type": "Musical Number",
-      "musicians": [
-        "Reynolds Family"
-      ],
-      "title": "\"I Feel My Savior's Love\""
+      "type": "Intermediate Hymn",
+      "title": "High on the Mountain Top",
+      "number": 5,
+      "link": "https://www.churchofjesuschrist.org/music/text/hymns/high-on-the-mountain-top?lang=eng"
     },
     {
       "type": "Speaker",
-      "name": "Dona Lauderback"
+      "name": "Dona Louderback"
     }
   ],
   "announcements": [
@@ -68,10 +67,16 @@
       "Brinlee Kessler"
     ],
     "ordinations": [],
-    "newMovins": [],
-    "Other": [],
-    "releases": [],
-    "callings": [],
+    "newMoveIns": [],
+    "other": [],
+    "releases": [
+      "Kim Huffaker (of 32nd St.) as Relief Society Activities Committee Member",
+      "Sasha Anderson as Relief Society Activities Committee Member"
+    ],
+    "callings": [
+      "Amber Osborn as Relief Society Instructor",
+      "Kim Huffaker (of 32nd St.) as Primary Teacher"
+    ],
     "deaths": []
   }
 }

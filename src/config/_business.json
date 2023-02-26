@@ -1,0 +1,43 @@
+{
+  "business": [
+    {
+      "type": "baptisms",
+      "label": "Baptisms",
+      "promptEnd": "[name] has been baptized this week and we would like to congratulate [him/her] on [his/her] decision to follow the Savior into the waters of baptism."
+    },
+    {
+      "type": "ordinations",
+      "label": "Ordinations",
+      "prompt": "We propose that the following individuals be ordained to offices in the Aaronic Priesthood. As Deacons and to recieve the Aaronic Priesthood...",
+      "promptEnd": "Those in favor may show it by the uplifted hand [...] Those opposed, if any, may also show it."
+    },
+    {
+      "type": "newMoveIns",
+      "label": "New Move Ins",
+      "prompt": "We have recieved the records for a new family in our ward. Will you please stand as your name is read:",
+      "prompt2": "All those who would like to welcome these individuals into our ward may show it by the uplifted hand."
+    },
+    {
+      "type": "releases",
+      "label": "Releases",
+      "prompt": "The following have been released and we propose that they be given a vote of thanks:",
+      "promptEnd": "All those who wish to show their appreciation for these individuals and their service may show it by the uplifted hand."
+    },
+    {
+      "type": "callings",
+      "label": "Callings",
+      "prompt": "The following have been called and we propose that they be sustained, will you please stand as your name is read:",
+      "promptEnd": "All those in favor of sustaining these individuals in their new callings may show it by the uplifted hand [...] Those opposed, if any, may also show it."
+    },
+    {
+      "type": "other",
+      "label": "*Other*",
+      "prompt": null
+    },
+    {
+      "type": "deaths",
+      "label": "Deaths",
+      "prompt": "We are deeply saddened to inform you that [name] has passed away. Our thoughts and prayers go out to [his/her] family and loved ones at this time. (Announce funeral date & time)"
+    }
+ ]
+}
