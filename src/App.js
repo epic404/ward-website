@@ -49,7 +49,7 @@ function App() {
   //TODO: In schema, everywhere we have "organization" or "type", change to "label".
   
   return [
-    config?.hasConfig && canViewServices && (
+    (config?.hasConfig && canViewServices) && (
       <div key="200">
         <img src={config.image} alt="church-logo" />
         <div className="p-2">
@@ -64,7 +64,7 @@ function App() {
         <AppFooter currentRoute={currentRoute} />
       </div>
     ),
-    config?.hasConfig && !canViewServices && (<MembersOnly key="403" />),
+    (config?.hasConfig && !canViewServices) && (<MembersOnly key="403" />),
     !config?.hasConfig && (<NoConfig key="404" />)
   ];
 }

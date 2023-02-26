@@ -1,20 +1,20 @@
 {
   "ward": "Dana Ranch Ward",
   "isFastSunday": false,
-  "broadcastLink": "https://www.youtube.com/watch?v=2N7F2ho1ru4",
+  "broadcastLink": "https://www.youtube.com/watch?v=rHh0N_Xbm9s",
   "secureHash": "8350e5a3e24c173df2275c9f80692755",
   "image": "https://assets.churchofjesuschrist.org/03/b1/03b1fc836e4da44c1b912407054ff9bc7b32304c/jesus_christ_nephites_book_mormon.png",
   "organist": "Christine Cooley",
   "chorister": "Myrna Johnson",
   "presiding": "Bishop Kent",
-  "conducting": "David Kolstad",
+  "conducting": "Matthew Hulse",
   "invocation": {
     "type": "Invocation",
-    "name": "Mark Fast"
+    "name": "Chris Cooley"
   },
   "benediction": {
     "type": "Invocation",
-    "name": "Autumn Shumway"
+    "name": "Kim Huffaker"
   },
   "openingHymn": {
     "type": "Opening Hymn",
@@ -37,7 +37,11 @@
   "services": [
     {
       "type": "Speaker",
-      "name": "Emma Tyler"
+      "name": "Haylee Hulse"
+    },
+    {
+      "type": "Speaker",
+      "name": "Bobbi Rogers"
     },
     {
       "type": "Musical Number",
@@ -48,7 +52,7 @@
     },
     {
       "type": "Speaker",
-      "name": "Robert Jarvis"
+      "name": "Dona Lauderback"
     }
   ],
   "announcements": [
